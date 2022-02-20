@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>facemask1.png</file>
+    <file>images/ProjectLegacy.png</file>
+  </qresource>
+</RCC>

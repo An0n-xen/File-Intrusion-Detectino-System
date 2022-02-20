@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>488</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>30</y>
+      <width>351</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:15px;</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>351</width>
+       <height>471</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:red;
+background-color: qlineargradient(spread:pad, x1:0.8, y1:1, x2:0, y2:0.011, stop:0.0511364 rgba(0, 27, 118, 245), stop:0.375 rgba(32, 0, 91, 245), stop:1 rgba(181, 167, 208, 252));
+border-radius:20px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Username">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>240</y>
+       <width>281</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit#Username{
+	background-color:rgba(0,0,0,0);
+	border: 1.7px solid;
+	border-top-color:rgba(0,0,0,0);
+	border-right-color:rgba(0,0,0,0);
+	border-bottom:1.7px solid;
+	padding: 7px;
+	border-radius:10px;
+}
+
+QLineEdit#Username:focus{
+	border: 2px solid rgb(132, 179, 3);
+	border-top-color:rgba(0,0,0,0);
+	border-right-color:rgba(0,0,0,0);
+	
+}</string>
+     </property>
+     <property name="placeholderText">
+      <string>User Name</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Password">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>310</y>
+       <width>281</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit#Password{
+	background-color:rgba(0,0,0,0);
+	border: 1.7px solid;
+	border-top-color:rgba(0,0,0,0);
+	border-right-color:rgba(0,0,0,0);
+	border-bottom:1.7px solid;
+	padding: 7px;
+	border-radius:10px;
+}
+
+QLineEdit#Password:focus{
+	border: 2px solid rgb(132, 179, 3);
+	border-top-color:rgba(0,0,0,0);
+	border-right-color:rgba(0,0,0,0);
+	
+}</string>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+     <property name="placeholderText">
+      <string>Password</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>30</y>
+       <width>191</width>
+       <height>171</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../images/login.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Login">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>380</y>
+       <width>191</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#Login{
+	background-color: rgb(0, 50, 131);
+	border-radius:10px;
+	color:white;
+}
+
+QPushButton#Login:pressed{
+	background-color:rgb(0,50,100);
+	background-position:calc(100%-10px)center;
+}
+
+QPushButton#Login{
+	background-color: rgb(0, 50, 120);
+	border-radius:10px;
+	color:white;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>L O G I N </string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>488</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
